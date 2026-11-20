@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 alpine/helm:3.14.4
+FROM --platform=linux/amd64 alpine/helm:4.3.2@sha256:a3b9d617c0c30a6c488cebb429c4ba83995a26dc2184599af5fd408a361b2e67
 # Helm supported version along with K8 version: https://helm.sh/docs/topics/version_skew/
 # List of Helm images: https://hub.docker.com/r/alpine/helm/tags
 
